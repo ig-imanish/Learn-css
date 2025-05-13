@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            max-width: 200px;
+            height: 215px;
+            margin: 10px auto;
+            position: relative;
+        }
+
+        .container {
+            display: block;
+            background: #ffffff;
+            width: 300px;
+            height: 500px;
+            margin: 20px auto;
+            border-radius: 15px;
+            border: 2px solid rgb(194, 192, 192);
+        }
+
+        .tags {
+            display: inline;
+            margin-left: 10px;
+        }
+
+        .tag {
+            background: #ffffff;
+            border: 1px solid rgb(202, 202, 202);
+            border-radius: 22px;
+            padding: 1px 10px;
+            display: inline;
+            justify-content: center;
+            font-weight: bold;
+            color: #8a8a8a;
+        }
+        .title {
+            margin-top: 9px;
+            margin-left: 10px;
+            margin-bottom: 17px;
+        }
+        .description {
+            display: block;
+            margin-top: 5px;
+            margin-left: 10px;
+            font-weight: bold;
+            color: #aaaaaa;
+        }
+        .btns {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 40px;
+        }
+        .btn {
+            background: #d6ecf7;
+            padding: 12px 20px;
+            border-radius: 50px;
+            color: rgb(0, 132, 255);
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="./photo.png" alt="">
+        </div>
+        <div class="tags">
+            <div class="tag">Nature</div>
+            <div class="tag">Lake</div>
+        </div>
+        <div class="title">
+            <h2>Lago di Braies</h2>
+        </div>
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sed praesentium, atque iste id explicabo!
+        </div>
+        <div class="btns">
+            <a href="http://" class="btn">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
