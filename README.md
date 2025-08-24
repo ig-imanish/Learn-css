@@ -1,5 +1,6 @@
-# 🚀 CSS Mastery Plan (10 Days) - For Frontend Developers!!
 
+# 🚀 CSS Mastery Plan (10 Days) - For Frontend Developers
+=======
 > Learn essential CSS concepts quickly and practically with daily tasks.
 > Time Required: **1.5 – 2.5 hours/day**
 
